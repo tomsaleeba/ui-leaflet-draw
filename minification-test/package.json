@@ -1,0 +1,19 @@
+{
+  "name": "ui-leaflet-draw-tester",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack/webpack.dev.js --inline --NODE_ENV=dev",
+    "build": "webpack --config webpack/webpack.build.js --NODE_ENV=production"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "2.17.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "ui-leaflet-draw": "0.0.5"
+  }
+}

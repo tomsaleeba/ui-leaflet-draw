@@ -1,0 +1,8 @@
+71c71
+<         controller: function($scope) {
+---
+>         controller: ['$scope', function($scope) {
+79c79
+<         },
+---
+>         }],
